@@ -1,0 +1,75 @@
+﻿@page "/"
+
+@*<div class="e-avatar e-avatar-small image"></div>
+<div class="e-avatar image"></div>*@
+
+
+
+<div class="container-div">
+    <div class="e-card e-custom-card">
+        <div class="e-card-header">
+            <div class="e-avatar image e-avatar-xlarge e-avatar-circle"></div>
+        </div>
+        <div class="e-card-header">
+            <div class="e-card-header-caption center">
+                <div class="e-card-header-title name">Laura Callahan</div>
+                <div class="e-card-sub-title">Sales Coordinator</div>
+            </div>
+        </div>
+        <div class="e-card-content">
+            <p class="avatar-content">
+                Laura received a BA in psychology from the University of Washington. She has also completed a course
+                in business French. She reads and writes French.
+            </p>
+        </div>
+    </div>
+</div>
+<style>
+    .e-avatar.image {
+        background-image: url('images/profile.jpg');
+    }
+
+    .container-div .name {
+        margin-top: 10px;
+    }
+
+    .container-div {
+        max-width: 300px;
+        margin: auto;
+        min-height: 400px;
+    }
+
+    .e-custom-card {
+        overflow: visible;
+        margin-top: 80px;
+        border-width: 1px;
+        padding: 1px;
+    }
+
+        .e-custom-card .e-card-header {
+            text-align: center;
+        }
+
+        .e-custom-card .e-avatar {
+            font-size: 40px;
+            position: absolute;
+            top: -29px;
+            left: auto;
+            box-shadow: 0 16px 28px -8px rgba(0, 0, 0, .36), 0 4px 15px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+        }
+
+    .e-card.e-custom-card :nth-child(3) {
+        padding: 12px 0px 20px 0px;
+        height: 130px;
+    }
+
+    .e-custom-card.e-card .e-card-content {
+        overflow: visible;
+    }
+
+    .avatar-content {
+        text-align: center;
+        color: rgb(94, 94, 94);
+    }
+</style>
+
